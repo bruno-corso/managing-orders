@@ -1,0 +1,60 @@
+.login__titulo {
+    margin-top: 10vh;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.login-area {
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto auto;
+    padding: 2rem 1rem;
+    border-radius: 5px;
+    margin-top: 4rem;
+}
+
+.login__label {
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.login__input {
+    padding: 0.5rem 0.5rem;
+    margin-bottom: 1.5rem;
+    border: none;
+    border-bottom: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    border-radius: 5px;
+
+}
+
+.login__botao {
+    width: 150px;
+    align-self: center;
+    padding: 0.5rem 0;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+}
+
+.login__botao:hover {
+    transition: 0.1s;
+    background-color: lightskyblue;
+}
+
+.login__link-novouser {
+    margin-top: 2rem;
+    font-size: 0.8rem;
+    align-self: center;
+    color: black;
+}
+
+@media screen and (min-width: 768px) {
+
+    .login-area {
+        width: 500px;
+    }
+
+}
