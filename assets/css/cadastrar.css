@@ -10,7 +10,10 @@ h2{
     flex-direction: column;
     width: 80%;
     margin: 0 auto;
-    margin-top: 2rem;
+    background-color: lightblue;
+    padding: 2rem 1rem;
+    border-radius: 5px;
+    margin-top: 3rem;
 }
 
 .cadastro__label{
@@ -36,4 +39,12 @@ h2{
 .cadastro__input:last-child:hover{
     transition: 0.1s;
     background-color: lightskyblue;
+}
+
+@media screen and (min-width: 768px) {
+
+    .cadastro {
+        width: 500px;
+    }
+
 }
