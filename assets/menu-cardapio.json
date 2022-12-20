@@ -1,72 +1,69 @@
 {
-    "menu": {
-        "items": [
-            {
-                "nome": "Água",
-                "valor": 3.00,
-                "categoria": 0
-            },
-            {
-                "nome": "Refrigerante",
-                "valor": 6.50,
-                "categoria": 0
-            },
-            {
-                "nome": "Cerveja Comum",
-                "valor": 7.50,
-                "categoria": 0
-            },
-            {
-                "nome": "Cerveja Premium",
-                "valor": 9.50,
-                "categoria": 0
-            },
-            {
-                "nome": "Caipirinha",
-                "valor": 20.00,
-                "categoria": 0
-            },
-            {
-                "nome": "Batida de Fruta",
-                "valor": 22.00,
-                "categoria": 0
-            },
-            {
-                "nome": "Porção Porquinho",
-                "valor": 80.00,
-                "categoria": 1
-            },
-            {
-                "nome": "Porção Camarão",
-                "valor": 100.00,
-                "categoria": 1
-            },
-            {
-                "nome": "Porção Cação",
-                "valor": 80.00,
-                "categoria": 1
-            },
-            {
-                "nome": "Porção Fritas",
-                "valor": 40.00,
-                "categoria": 1
-            },
-            {
-                "nome": "Pastel Simples",
-                "valor": 10,
-                "categoria": 2
-            },
-            {
-                "nome": "Pastel Especial",
-                "valor": 15,
-                "categoria": 2
-            }
-            
-        ],
-        "categories": [
-            "Bebidas",
-            "Porções",
-            "Pastéis"
-        ]
-    }
+    "itens": [
+        {
+            "nome": "Água",
+            "valor": 3.00,
+            "categoria": 0
+        },
+        {
+            "nome": "Refrigerante",
+            "valor": 6.50,
+            "categoria": 0
+        },
+        {
+            "nome": "Cerveja Comum",
+            "valor": 7.50,
+            "categoria": 0
+        },
+        {
+            "nome": "Cerveja Premium",
+            "valor": 9.50,
+            "categoria": 0
+        },
+        {
+            "nome": "Caipirinha",
+            "valor": 20.00,
+            "categoria": 0
+        },
+        {
+            "nome": "Batida de Fruta",
+            "valor": 22.00,
+            "categoria": 0
+        },
+        {
+            "nome": "Porção Porquinho",
+            "valor": 80.00,
+            "categoria": 1
+        },
+        {
+            "nome": "Porção Camarão",
+            "valor": 100.00,
+            "categoria": 1
+        },
+        {
+            "nome": "Porção Cação",
+            "valor": 80.00,
+            "categoria": 1
+        },
+        {
+            "nome": "Porção Fritas",
+            "valor": 40.00,
+            "categoria": 1
+        },
+        {
+            "nome": "Pastel Simples",
+            "valor": 10,
+            "categoria": 2
+        },
+        {
+            "nome": "Pastel Especial",
+            "valor": 15,
+            "categoria": 2
+        }
+    ],
+    "categoria": [
+        "Bebidas",
+        "Porções",
+        "Pastéis"
+    ]
 }

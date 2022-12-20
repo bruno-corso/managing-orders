@@ -13,7 +13,7 @@
 <body>
     <a href="./login.html">Login</a>
     <h2>Cadastrar Estabelecimento</h2>
-    <div class="cadastro">
+    <form action="../index.html" class="cadastro">
         <label for="nome-responsavel" class="cadastro__label">Nome Responsável</label>
         <input type="text" id="nome-responsavel" required class="cadastro__input">
         <label for="nome-estabelecimento" class="cadastro__label">Nome Estabelecimento</label>
@@ -23,13 +23,16 @@
         <label for="senha" class="cadastro__label">Criar Senha</label>
         <input type="password" id="senha" class="cadastro__input" required pattern="^(?=.*\d).{8,12}$" title="A senha deve conter de 8 a 12 caracteres incluindo um numero ou mais.">
         <label for="cep" class="cadastro__label">CEP</label>
-        <input type="text" id="cep" class="cadastro__input" required>
+        <input type="text" id="cep" pattern="(^\d{5}-\d{3}|^\d{2}.\d{3}-\d{3}|\d{8})" class="cadastro__input" required>
         <div class="cadastro__endereco"></div>
         <div>
-            <input class="cadastro__input" id="checkbox-endereco" type="checkbox">
+            <input class="cadastro__input-checkbox" id="checkbox-endereco" type="checkbox">
             <span>Não possui endereço.</span>
         </div>
-        <button class="cadastro__input">Cadastrar</button>
-    </div>
+        <button class="cadastro__input-botao">Cadastrar</button>
+    </form>
+
+    <script src="../js/cadastro.js"></script>
+
 </body>
 </html>

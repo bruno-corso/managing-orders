@@ -1,0 +1,29 @@
+h1{
+    text-align: center;
+    margin: 2rem auto;
+    font-size: 1.75rem;
+}
+
+h3{
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 1.25rem;
+}
+
+.gestao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gestao__link{
+    text-decoration: none;
+    margin: 0.75rem auto;
+    padding: 1.25rem;
+    background-color: lightblue;
+    color: black;
+    width: 75%;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 1.25rem;
+}
